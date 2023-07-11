@@ -1034,6 +1034,7 @@ Coach Member
   background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
+  border-radius: 50%;
 }
 
 .team .member-coach:hover .member-info-content {
