@@ -4,28 +4,33 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>ComingSoon - CoachSir</title>
+
+  <title>CoachSir - Way to go!</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/favicon.ico" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: ComingSoon
+  * Template Name: Ninestars
   * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/
+  * Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -34,148 +39,334 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center">
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-      <img src="assets/img/CoachSirLogo.png" alt="CoachSir" width="100" height="150">
-      <h1>ComingSoon</h1>
-      <h2>We're working on launching our website soon</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2023/07/5" >
-        <div>
-          <h3>%d</h3>
-          <h4>Days</h4>
-        </div>
-        <div>
-          <h3>%h</h3>
-          <h4>Hours</h4>
-        </div>
-        <div>
-          <h3>%m</h3>
-          <h4>Minutes</h4>
-        </div>
-        <div>
-          <h3>%s</h3>
-          <h4>Seconds</h4>
-        </div>
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>CoachSir</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
-
-      <div class="social-links text-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#about">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#team">Our Team</a></li>
+          <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Coaches.html">Coaches</a></li>
+              <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="services/studyAbroad.html">Study Abroad</a></li>
+                  <li><a href="services/career.html">Career</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="https://docs.google.com/forms/d/e/1FAIpQLSezEd_QgzSHAtllU9yVBVkYWElNMJvMF2xMuwRnmmskvVcaUA/viewform?pli=1" target="_blank">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End #header -->
+  </header><!-- End Header -->
+
+ <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Bettter counselling experience with CoachSir</h1>
+          <h2>We are team of talented counsellers helping people with diverse services</h2>
+          <div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdP2siS9wJlXGeuy007lK57GGLR3w2JoqwG0Zx7XQv0TfCBA/viewform" target="_blank" class="btn-get-started scrollto">Need help? - Join us!</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <!-- <section id="about" class="about">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container">
 
-        <div class="row content">
-          <div class="col-lg-6">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+        <div class="row justify-content-between">
+          <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
+            <img src="assets/img/about-img.svg" class="img-fluid" alt="" data-aos="zoom-in">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+          <div class="col-lg-6 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">We connect counsellors with people who look for counselling</h3>
+            <p data-aos="fade-up" data-aos-delay="100">
+              Welcome to our career consulting platform! We are passionate about helping individuals navigate their professional journeys and make informed decisions about their careers. Our team of experienced career counselors and mentors is dedicated to providing valuable guidance and support to students, working professionals, and individuals seeking career transitions.
             </p>
-            <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
-        </div>
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-10">
-
-            <div class="info-wrap">
-              <div class="row">
-                <div class="col-lg-4 info">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Are you a coach?</h4>
-                  <p>Join us!</p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>team@coachsir.in</p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-phone"></i>
-                  <h4>Whatsapp Business</h4>
-                  <p>+91 93430 55547</p>
-                </div>
+            <div class="row">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-receipt"></i>
+                <h4>Coaches</h4>
+                <p>With a wealth of knowledge and expertise in various industries, our counselors are well-equipped to assist you in exploring different career paths, understanding market trends, and developing strategies for success. We believe that everyone deserves a fulfilling career that aligns with their skills, interests, and aspirations.</p>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Services</h4>
+                <p>Explore our services, connect with our dedicated counselors, and let us help you embark on a rewarding career journey. We look forward to being a part of your success story!</p>
               </div>
             </div>
-
           </div>
-
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-           <!--  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form> -->
+      </div>
+    </section><!-- End About Section -->
+
+      <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Check out the great services we offer</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Study Abroad</a></h4>
+              <p class="description">Discover global opportunities and make informed decisions with our expert study abroad counseling tailored to your academic aspirations and cultural exploration</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Career Switch</a></h4>
+              <p class="description">Navigate career transitions confidently with our comprehensive guidance and personalized strategies, empowering you to successfully pivot into a new professional path</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Career Abroad</a></h4>
+              <p class="description">Unlock your potential in the international job market through our specialized career counseling, helping you seize opportunities and thrive in a global work environment</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Course selection</a></h4>
+              <p class="description">Choose the right educational path with our expert advice and comprehensive analysis, ensuring you make informed decisions for a successful academic journey</p>
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Us Section -->
+    </section><!-- End Services Section -->
+
+   <!-- ======= Team Section ======= -->
+  <section id="team" class="team">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Our team is always here to help</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-xl-4 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="member">
+            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Ankit Kumar Singh</h4>
+                <span>Founder & Chief Executive Officer</span>
+              </div>
+              <div class="social">
+                <a href="https://www.facebook.com/aks2311"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/not_yet_converged/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/asingh821/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="member">
+            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Akash Shanker</h4>
+                <span>Co-founder</span>
+              </div>
+              <div class="social">
+                <a href="https://www.facebook.com/shnakerakash/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/drunkpanda_ooo/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shankerakash/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="member">
+            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Jhanvi Garg</h4>
+                <span>Design Head</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Team Section -->
+
+   <!-- ======= F.A.Q Section ======= -->
+  <section id="faq" class="faq section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>F.A.Q</h2>
+        <p>Frequently Asked Questions</p>
+      </div>
+
+      <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+        <li>
+          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">How can career counseling benefit me?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Career counseling provides personalized guidance, helping you explore career options, make informed decisions, and develop strategies for success in your professional journey.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How do I book a counseling session?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Booking a counseling session is easy! Simply visit our website, navigate to the booking page, select a convenient date and time, and provide your contact information. Our team will reach out to confirm your appointment.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What qualifications do your career counselors have?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Our career counselors are highly qualified professionals with extensive experience in career guidance. They hold relevant certifications and possess in-depth knowledge of various industries and educational systems.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Can you help with study abroad applications and visa procedures?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Absolutely! We provide comprehensive assistance with study abroad applications, including guidance on choosing the right program, preparing application documents, and navigating the visa process.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">What if I'm unsure about my career goals or interests?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              That's completely normal! Our career counselors specialize in helping individuals explore their interests, assess their skills, and discover suitable career paths. We can assist you in finding clarity and aligning your goals with your strengths and passions.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Are counseling sessions confidential?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Yes, client confidentiality is of utmost importance to us. All counseling sessions and personal information shared are treated with strict confidentiality and adhere to professional ethical standards.
+            </p>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section><!-- End F.A.Q Section -->
+
+
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container">
+
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>CoachSir</h3>
+            <p>
+              <strong>Phone:</strong> +91 93430 55547<br>
+              <strong>Email:</strong> team@coachsir.in<br>
+              <strong>Whatsapp:</strong> <a href="https://wa.me/+919343055547"> +91 93430 55547</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="services/studyAbroad.html">Study Abroad</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="services/career.html">Career</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Social Networks</h4>
+          <p>Please follow for more interesting facts and updates!</p>
+          <div class="social-links mt-3">
+            <a href="https://www.youtube.com/channel/UCMQuRJ3vyotjqPBV5fufHHA" class="youtube"><i class="bx bxl-youtube"></i></a>
+            <a href="https://www.facebook.com/people/Coach-Sir/100094537741492" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/_coach_sir_/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/96441449/admin/feed/posts/?feedType=following" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
       <div class="copyright">
         &copy; Copyright <strong><span>CoachSir</span></strong>. All Rights Reserved
       </div>
@@ -183,16 +374,20 @@
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/ -->
-        Designed by <a href="https://github.com/shankerAkash/">Team@CoachSir</a>
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End #footer -->
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
